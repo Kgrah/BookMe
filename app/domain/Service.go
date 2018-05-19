@@ -2,7 +2,8 @@ package domain
 
 //Service : ...
 type Service struct {
-	price money
+	title string
+	price int
 }
 
 //NewService : constructor for Service

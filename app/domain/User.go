@@ -5,7 +5,7 @@ type User struct {
 	username      string
 	password      []byte
 	groups        []Group
-	friends       []User
+	friends       Graph
 	bookedEvents  []Event
 	createdEvents []Event
 	services      []*Service
